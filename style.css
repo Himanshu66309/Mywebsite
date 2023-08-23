@@ -161,7 +161,7 @@ footer {
     scale: 1.2 ;
 }
 .section1 div {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 .section1 div span {
     font-size: 1.3rem;
@@ -174,6 +174,7 @@ footer {
     text-decoration: underline;
     font-style: oblique;
     width: 100%;
+    font-weight: 450;
     font-size: 3rem;
     padding-bottom: 35px;
     font-family: 'pacifico', 'Arial Narrow', Arial, sans-serif;
