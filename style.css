@@ -167,12 +167,6 @@ footer {
 .section1 div {
     margin-bottom: 30px;
 }
-.section1 div span {
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    font-style: italic;
-}
 .moments {
     text-align: center;
     text-decoration: underline;
