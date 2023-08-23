@@ -248,6 +248,9 @@ footer {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+    .section1 div {
+        margin-bottom: 30px;
+    }
 }
 @media (max-width:768px) {
     #gallery {
