@@ -27,7 +27,7 @@
   </header>
   <main class="for-cont">
     <div class="border1">
-      <form action="connect.php" method="POST">
+      <form autocomplete="off" method="POST" name="google-sheet">
           <h2>Let's Connect</h2>
         <div class="arrange">
           <div class="full">
@@ -57,6 +57,17 @@
         </div>
       </form>
     </div>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbw_3j36lyOStK6TaQfU7t-geRQpL2dnV_08CnKYahAZeRdxFl79DxSCiRSBJxc0cwB1/exec'
+      const form = document.forms['google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => alert("Thanks for Contacting..! I Will Contact You Soon..."))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
   </main>
   <footer>
     <span class="foot-details">
