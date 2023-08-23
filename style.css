@@ -87,14 +87,14 @@ footer {
     top: 27px;
     left: 50px;
 }
-@media (max-width:340px) {
+@media (min-width:340px) {
     .foot-image {
         position: relative;
         top: 21px;
         left: 35px;
     }
 }
-@media (min-width:560px) {
+@media (max-width:560px) {
     .foot-details {
         padding-left: 35px;
     }
