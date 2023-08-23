@@ -96,6 +96,13 @@ footer {
     }
     .foot-image {
         position: relative;
+        top: 40px;
+        left: 35px;
+    }
+}
+@media (max-width:340px) {
+    .foot-image {
+        position: relative;
         top: 21px;
         left: 35px;
     }
@@ -304,10 +311,11 @@ footer {
     text-align: center;
     text-decoration: underline;
 }
-.QAE-section P {
+.QAE-section div > P {
     font-size: 2vw;
     padding-left: 12vw;
     padding-top: 4px;
+    padding-rigth: 3vw;
 }
 .Work-htry {
     box-shadow: 0 0 20px #1b1a1a;
@@ -378,7 +386,7 @@ footer {
     .QAE-section > h2 {
         font-size: 4.5vw;
     }
-    .QAE-section P {
+    .QAE-section div > P {
         font-size: 2.5vw;
         padding-left: 6vw;
         padding-rigth: 3vw;
