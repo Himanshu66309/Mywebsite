@@ -119,7 +119,7 @@ footer {
     padding-top: 10%;
     padding-left: 10%;
 }
-.main-image p span {
+.main-image p > span {
     font-size: 2.5vw;
     font-weight: 600;
 }
@@ -139,6 +139,10 @@ footer {
 .div-center .content {
     padding-left: 30px;
     padding-right: 30px;
+}
+.div-center .content > p {
+    font-size: 1.5rem;
+    padding-top: 7px;
 }
 #img-1 {
     height: 350px;
