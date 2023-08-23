@@ -247,6 +247,8 @@ footer {
         width: 220px;
         height: 270px;
         padding: 7px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 @media (max-width:768px) {
