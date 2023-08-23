@@ -297,7 +297,6 @@ footer {
 .QAE-section P {
     font-size: 2vw;
     padding-left: 12vw;
-    padding-rigth: 4vw;
     padding-top: 4px;
 }
 .Work-htry {
@@ -371,6 +370,7 @@ footer {
     .QAE-section P {
         font-size: 2.5vw;
         padding-left: 6vw;
+        padding-rigth: 3vw;
     }
     .Work-htry > h2 {
         font-size: 4.5vw;
