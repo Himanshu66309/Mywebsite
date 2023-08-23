@@ -242,7 +242,13 @@ footer {
     border-radius: 10px;
 }
 
-
+@media (max-width:560px){
+    #img-1 {
+        width: 220px;
+        height: 270px;
+        padding: 7px;
+    }
+}
 @media (max-width:768px) {
     #gallery {
         margin: 35px 3% 35px;
