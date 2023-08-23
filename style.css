@@ -94,7 +94,7 @@ footer {
         left: 35px;
     }
 }
-@media (max-width:560px) {
+@media (min-width:560px) {
     .foot-details {
         padding-left: 35px;
     }
