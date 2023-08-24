@@ -87,7 +87,7 @@ footer {
     top: 27px;
     left: 50px;
 }
-@media (100px <= width <=338px) {
+@media (max-width:338px) {
     .foot-image {
         position: relative;
         top: 21px;
