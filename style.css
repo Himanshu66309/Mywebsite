@@ -88,12 +88,6 @@ footer {
     left: 50px;
 }
 @media (max-width:338px) {
-    .foot-details {
-        padding-left: 35px;
-    }
-    .foot-details em {
-        font-size: 1.2rem;
-    }
     .foot-image {
         position: relative;
         top: 21px;
