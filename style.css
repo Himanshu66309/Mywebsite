@@ -87,6 +87,13 @@ footer {
     top: 27px;
     left: 50px;
 }
+@media (max-width:338px) {
+    .foot-image {
+        position: relative;
+        top: 21px;
+        left: 35px;
+    }
+}
 @media (max-width:560px) {
     .foot-details {
         padding-left: 35px;
@@ -97,13 +104,6 @@ footer {
     .foot-image {
         position: relative;
         top: 40px;
-        left: 35px;
-    }
-}
-@media (max-width:338px) {
-    .foot-image {
-        position: relative;
-        top: 21px;
         left: 35px;
     }
 }
