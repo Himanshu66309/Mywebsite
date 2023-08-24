@@ -294,12 +294,15 @@ footer {
     padding-left: 10vw;
     padding-top: 4%;
 }
-.about ul > h2 {
-    padding-top: 2%;
+.about ul > a {
+    text-decoration: none;
+}
+.about ul a > h2 {
+    padding-top: 1%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3vw;
     color: white;
-    cursor: pointer;
+    display: inline-block;
 }
 .master-QAE {
     display: flex;
@@ -317,7 +320,7 @@ footer {
 }
 .QAE-section h2 {
     font-size: 4vw;
-    padding-top: 5%;
+    padding-top: 3%;
     text-align: center;
     text-decoration: underline;
 }
