@@ -90,7 +90,7 @@ footer {
 @media (max-width:338px) {
     .foot-image {
         position: relative;
-        top: 21px;
+        top: 10px;
         left: 35px;
     }
 }
