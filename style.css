@@ -40,7 +40,7 @@ header {
         font-size: 2.5rem;
     }
 }
-@media (max-width:768px) {
+/* @media (max-width:768px) {
     .navbar-link > ul {
         display: flex;
         justify-content: space-evenly;
@@ -61,7 +61,7 @@ header {
     .navbar-link {
         min-height: 20px;
     }
-}
+} */
 
 /* footer */
 footer {
