@@ -251,7 +251,7 @@ footer {
 }
 .Art .slide div span img {
     border-radius: 10px;
-    margin: 30px 30px 0 0;
+    margin: 30px 30px 0 30px;
 }
 .Art .slide div span video {
     border-radius: 10px;
